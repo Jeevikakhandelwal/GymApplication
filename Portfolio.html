@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        /* CSS reset */
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url('img/best-workout-apps-ftr.jpg');
+        }
+
+        .text {
+            display: inline-block;
+            padding: 7px 36px;
+            margin: 0px -1px;
+            color: white;
+            /* background-color: black; */
+            width: 0px;
+
+        }
+
+        #item3 {
+            float: right;
+        }
+
+        #item1 {
+            float: left;
+
+        }
+
+        li {
+            float: left;
+            list-style: none;
+            padding: 1px 22px;
+            margin: -9px 7px;
+        }
+
+
+        .text2 {
+            display: inline-block;
+            /* border: 2px solid black; */
+            padding: 3px 25px;
+            margin: 5px 10px;
+            color: white;
+            height: 27px;
+            position: absolute;
+            right: 415px;
+            /* background-color: black; */
+        }
+
+        .text2 .navbar li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: gray;
+        }
+
+        .text img {
+            width: 73px;
+            filter: invert(100%);
+            position: relative;
+            right: 37px;
+            bottom: 8px;
+        }
+
+        .text h6 {
+            text-align: center;
+            position: absolute;
+            top: 27px;
+            left: 1px;
+            color: white;
+        }
+
+        .btn {
+            background-color: black;
+            color: white;
+            padding: 4px 10px;
+            margin: 7px 4px;
+        }
+
+        .btn2 {
+            background-color: black;
+            color: white;
+            padding: 4px 10px;
+            margin: 7px 4px;
+        }
+
+        .box {
+            /* border: 1px solid black; */
+            width: 25%;
+            position: relative;
+            top: 211px;
+            left: 118px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="text" id="item1">
+            <img src="img/imgg.jpg" alt="">
+            <h6>Fitness Center</h6>
+        </div>
+        <div class="text2" id="item2">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">About Us </a></li>
+            </ul>
+        </div>
+        <div class="text3" id="item3">
+            <button class="btn">Email Us</button>
+            <button class="btn2">Acheivements</button>
+        </div>
+    </header>
+    <div class="box">
+        <form action="">
+            <table>
+                <tr>
+                    <td>
+                        Name
+                        <input type="text" name="name" placeholder="Enter your name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Contact
+                        <input type="Number" name="name" placeholder="Enter your number">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Date
+                        <input type="date" name="name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="submit">submit</button>
+                        <button type="submit">Cancel</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>
